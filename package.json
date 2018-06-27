@@ -1,0 +1,37 @@
+{
+  "name": "fun-web-os",
+  "description": "A minute window manager for multifaceted webapps",
+  "version": "0.1.0",
+  "scripts": {
+    "watch": "broccoli-timepiece lib",
+    "build": "broccoli build --overwrite lib",
+    "clean": "rimraf lib",
+    "prepare": "yarn run clean && yarn run build"
+  },
+  "main": "lib/index",
+  "module": "lib/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conartist6/potato-engine/tree/master/packages/fun-web-os"
+  },
+  "author": "Conrad Buck <c@burningpotato.com>",
+  "peerDependencies": {
+    "react-redux-subspace": "^2.5.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-check-es2015-constants": "^6.22.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "broccoli": "^2.0.0-beta.2",
+    "broccoli-babel-transpiler": "^6.4.3",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-funnel": "^2.0.1",
+    "broccoli-merge-trees": "^3.0.0",
+    "broccoli-timepiece": "^0.3.0",
+    "rimraf": "^2.6.2"
+  }
+}
