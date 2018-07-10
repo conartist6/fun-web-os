@@ -22,6 +22,10 @@ There is no filesystem in Fun -- it is a frontend only application. There are ho
 
 File contents are not part of the system yet either. It is assumed that an application, given a filename, will know how to construct a request which will fetch that file's contents.
 
+### Philosophy
+
+Fun OS is a waste of space. Fun OS is meant to be a waste of space. If you need to waste space, you should do it in style! You should do it while having fun!
+
 ### Other
 
 The official album of Fun Web OS is [I Like Fun](https://open.spotify.com/album/0NphwDR3zIVfULKcBDQ9Ap) by [They Might Be Giants](https://www.theymightbegiants.com/).
